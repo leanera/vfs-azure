@@ -2,13 +2,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     
-    <groupId>iqone</groupId>
+    <groupId>leanera</groupId>
     <artifactId>vfs-azure</artifactId>
     <version>1.1</version>
     
     <name>${project.groupId}:${project.artifactId}</name>
     <description>Azure Blob Storage Provider for the Apache Commons VFS library.</description>
-    <url>https://github.com/kervinpierre/vfs-azure</url>
+    <url>https://github.com/leanera/vfs-azure</url>
 
     <licenses>
         <license>
@@ -24,14 +24,14 @@
             <organization>SLU Dev Inc.</organization>
             <organizationUrl>http://sludev.com</organizationUrl>
         </developer>
+        <developer>
+            <name>Toby Neumann</name>
+            <email></email>
+            <organization>LeanERA</organization>
+            <organizationUrl>Leanera.net</organizationUrl>
+        </developer>
     </developers>
   
-    <scm>
-        <connection>scm:git:git@github.com:kervinpierre/vfs-azure.git</connection>
-        <developerConnection>scm:git:git@github.com:kervinpierre/vfs-azure.git</developerConnection>
-        <url>https://github.com/kervinpierre/vfs-azure.git</url>
-    </scm>
-
     <packaging>jar</packaging>
   
     <profiles>

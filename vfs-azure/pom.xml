@@ -136,8 +136,8 @@
     <distributionManagement>
    <repository>
      <id>github</id>
-     <name>GitHub LeanERA Apache Maven Packages</name>
-     <url>https://maven.pkg.github.com/LeanERA/vfs-azure</url>
+     <name>GitHub leanera Apache Maven Packages</name>
+     <url>https://maven.pkg.github.com/leanera/vfs-azure</url>
    </repository>
 </distributionManagement>
 </project>

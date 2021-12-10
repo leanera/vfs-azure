@@ -23,4 +23,4 @@ jobs:
         distribution: 'adopt'
         cache: maven
     - name: Build with Maven
-      run: mvn package -f vfs-azure/pom.xml -DskipTests
+      run: mvn clean package install -f vfs-azure/pom.xml -DskipTests

@@ -132,7 +132,7 @@ public class AzFileProvider
      * 
      * The value is optional, hence best to leave undeclared.
      * 
-     * @param ep The optional endpoint E.g. <account>..blob.core.windows.net 
+     * @param ep The optional endpoint 
      */
     public void setEndpoint(String ep)
     {
